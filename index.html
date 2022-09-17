@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Mougenot's Budget Visualization</title>
+      <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
+      <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
+      <link href="./css/stylesheet.css" rel="stylesheet"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+      <link rel="icon" href="./img/logo.png">
+  </head>
+  <body>
+    
+    <main>
+      <h1>Welcome:<br></h1>
+      <h2>Abbigale <br>&<br>Renan Mougenot</h2>
+      <section class="wrapper">
+      <div class="box">
+        <a href="./html/abbie.html" target="_blank"><button>Abbigale</button></a>
+        <a href="./html/renan.html" target="_blank"><button>Renan</button></a>
+      </div>
+    </section>
+
+    </main>
+
+    <footer>
+      <h3>I love you! ❤️ </h3>
+      <p>Today's date: <br><span id="datetime"></span></p>
+      <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML=dt.toLocaleString();
+      </script> 
+    </footer>
+</body>
+</html>
