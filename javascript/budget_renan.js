@@ -1,6 +1,6 @@
 
 //Define the budget
-let spending_power = 600;
+let spending_power = 1630;
 let sum = 0;
 let remaining = 0;
 
@@ -43,13 +43,9 @@ let day31 = [];
 //Array to input expenses
 let spending = [
 
-    add_expense(20,"groceries", 5),
-    add_expense(60,"groceries", 11),
-    add_expense(100,"fixed", 19),
-    add_expense(150,"fun", 19),
-    add_expense(2,"fun", 27),
-    add_expense(25,"gas", 31),
-    
+    add_expense(400,"fixed", 1),
+    add_expense(485,"fixed", 1),
+
 ];
 
 //Create object for expense
@@ -249,7 +245,5 @@ anychart.onDocumentReady(function() {
 
 
 /*TO DO:
-    - create the website
-    - display graph on html index
     - take input online
 */
