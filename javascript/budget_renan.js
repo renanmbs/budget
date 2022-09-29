@@ -45,6 +45,7 @@ let spending = [
 
     add_expense(400,"fixed", 1),
     add_expense(485,"fixed", 1),
+    add_expense(30,"groceries", 3),
 
 ];
 
