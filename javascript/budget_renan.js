@@ -9,7 +9,7 @@ let month = "September";
 
 //Spending categories
 let groceries = 0;
-let restaurant = 0;
+let food = 0;
 let clothes = 0;
 let fun = 0;
 let gas = 0;
@@ -47,11 +47,12 @@ let spending = [
     add_expense(485,"fixed", 1), //CC
     add_expense(30,"groceries", 3), //Walmart
     add_expense(3,"food", 6), //7-11
-    add_expense(11,"fixed", 3), //Spotify
-    add_expense(25,"food", 3), //Chipotle
-    add_expense(12,"food", 3), //Hinds
-    add_expense(14,"food", 3), //Starbucks
-    add_expense(15,"fixed", 3), //Routing
+    add_expense(11,"fixed", 6), //Spotify
+    add_expense(25,"food", 6), //Chipotle
+    add_expense(12,"food", 6), //Hinds
+    add_expense(14,"food", 6), //Starbucks
+    add_expense(15,"fixed", 6), //Routing
+    add_expense(29,"fixed", 6), //Routing
 
 
 ];
@@ -77,8 +78,8 @@ for (const check of spending){
         category1.push(check);
     }
 
-    else if(check.category === "restaurant"){
-        restaurant += check.money_spent;
+    else if(check.category === "food"){
+        food += check.money_spent;
         category2.push(check);
     }
 
@@ -149,7 +150,6 @@ anychart.onDocumentReady(function() {
 
     //Set the data
     var data = [
-        {x: "Spending Power", value: spending_power},
         {x: "Spent", value: sum},
         {x: "Remaining", value: remaining},
     ];
@@ -174,7 +174,7 @@ anychart.onDocumentReady(function() {
     //Set the data
     var data = [
         {x: "Groceries", value: groceries},
-        {x: "Restaurant", value: restaurant},
+        {x: "Food", value: food},
         {x: "Clothes", value: clothes},
         {x: "Fun", value: fun},
         {x: "Gas", value: gas},
@@ -226,7 +226,7 @@ anychart.onDocumentReady(function() {
 // console.log(`sum: ${sum}`);
 // console.log(`remaining: ${remaining}`);
 // console.log(`groceries: ${groceries}`);
-// console.log(`restaurant: ${restaurant}`);
+// console.log(`food: ${food}`);
 // console.log(`clothes: ${clothes}`);
 // console.log(`fun: ${fun}`);
 // console.log(`gas: ${gas}`);
