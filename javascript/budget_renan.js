@@ -43,9 +43,16 @@ let day31 = [];
 //Array to input expenses
 let spending = [
 
-    add_expense(400,"fixed", 1),
-    add_expense(485,"fixed", 1),
-    add_expense(30,"groceries", 3),
+    add_expense(400,"fixed", 1), //Rent
+    add_expense(485,"fixed", 1), //CC
+    add_expense(30,"groceries", 3), //Walmart
+    add_expense(3,"food", 6), //7-11
+    add_expense(11,"fixed", 3), //Spotify
+    add_expense(25,"food", 3), //Chipotle
+    add_expense(12,"food", 3), //Hinds
+    add_expense(14,"food", 3), //Starbucks
+    add_expense(15,"fixed", 3), //Routing
+
 
 ];
 
