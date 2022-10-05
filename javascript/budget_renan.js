@@ -5,7 +5,7 @@ let sum = 0;
 let remaining = 0;
 
 //Define the month
-let month = "September";
+let month = "October";
 
 //Spending categories
 let groceries = 0;
@@ -52,7 +52,9 @@ let spending = [
     add_expense(12,"food", 6), //Hinds
     add_expense(14,"food", 6), //Starbucks
     add_expense(15,"fixed", 6), //Routing
-    add_expense(29,"fixed", 6), //Routing
+    add_expense(29,"groceries", 8), //Walmart
+    add_expense(1,"extra", 8), //Walgreens
+    add_expense(65,"gas", 8), //Gas Smiths
 
 
 ];
