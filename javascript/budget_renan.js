@@ -55,6 +55,7 @@ let spending = [
     add_expense(29,"groceries", 8), //Walmart
     add_expense(1,"extra", 8), //Walgreens
     add_expense(65,"gas", 8), //Gas Smiths
+    add_expense(61,"fixed", 9), //Phone bill
 
 
 ];
