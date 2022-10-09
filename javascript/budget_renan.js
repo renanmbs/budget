@@ -56,10 +56,10 @@ let spending = [
     add_expense(1,"extra", 8), //Walgreens
     add_expense(65,"gas", 8), //Gas Smiths
     add_expense(61,"fixed", 9), //Phone bill
-    add_expense(25,"food", 9), //Starbucks
-    add_expense(16,"extra", 9), //Honey
-    add_expense(8,"food", 9), //Baskin
-    add_expense(25,"food", 9), //Sinclair
+    add_expense(25,"food", 11), //Starbucks
+    add_expense(16,"extra", 11), //Honey
+    add_expense(8,"food", 11), //Baskin
+    add_expense(25,"food", 11), //Sinclair
 
 
 
