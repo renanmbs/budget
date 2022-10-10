@@ -60,6 +60,7 @@ let spending = [
     add_expense(16,"extra", 11), //Honey
     add_expense(8,"food", 11), //Baskin
     add_expense(25,"food", 11), //Sinclair
+    add_expense(11,"food", 12), //Phoenix House
 
 
 
