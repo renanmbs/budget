@@ -43,12 +43,13 @@ let day31 = [];
 //Array to input expenses
 let spending = [
 
-    // add_expense(20,"groceries", 5),
-    // add_expense(60,"groceries", 11),
-    // add_expense(100,"fixed", 19),
-    // add_expense(150,"fun", 19),
-    // add_expense(2,"fun", 27),
-    // add_expense(25,"gas", 31),
+    add_expense(325,"fixed", 5), //Rent
+    add_expense(124,"fixed", 5), //Booking app
+    add_expense(260,"fixed", 5), //Rent salon
+    add_expense(55,"groceries", 5), //Harmons
+    add_expense(19,"groceries", 5), //Harmons
+    add_expense(5,"groceries", 5), //Maceys
+    add_expense(22,"groceries", 5), //Walmart
     
     
 ];
