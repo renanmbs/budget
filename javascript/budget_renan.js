@@ -64,6 +64,8 @@ let spending = [
     add_expense(6,"food", 15), //Hinds
     add_expense(30,"fixed", 15), //Identity IQ
     add_expense(32,"food", 15), //Chipotle
+    add_expense(5,"groceries", 18), //Ridleys
+    add_expense(27,"food", 18), //La Bonita
 
 
 
