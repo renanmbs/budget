@@ -68,6 +68,8 @@ let spending = [
     add_expense(27,"food", 18), //La Bonita
     add_expense(13,"extra", 20), //Walgreens
     add_expense(99,"fixed", 20), //Credit Glory
+    add_expense(13,"food", 21), //Phoenix House
+    add_expense(60,"gas", 20), //Credit Glory
 
 
 
