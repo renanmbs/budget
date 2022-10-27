@@ -43,33 +43,26 @@ let day31 = [];
 //Array to input expenses
 let spending = [
 
-    add_expense(400,"fixed", 1), //Rent
-    add_expense(485,"fixed", 1), //CC
-    add_expense(30,"groceries", 3), //Walmart
-    add_expense(3,"food", 6), //7-11
-    add_expense(11,"fixed", 6), //Spotify
-    add_expense(25,"food", 6), //Chipotle
-    add_expense(12,"food", 6), //Hinds
-    add_expense(14,"food", 6), //Starbucks
+    add_expense(100,"fixed", 25), //Rent
+    add_expense(360,"fixed", 25), //CC
+    add_expense(42,"groceries", 25), //Walmart
     add_expense(15,"fixed", 6), //Routing
-    add_expense(29,"groceries", 8), //Walmart
-    add_expense(1,"extra", 8), //Walgreens
-    add_expense(65,"gas", 8), //Gas Smiths
-    add_expense(61,"fixed", 9), //Phone bill
-    add_expense(25,"food", 11), //Starbucks
-    add_expense(16,"extra", 11), //Honey
-    add_expense(8,"food", 11), //Baskin
-    add_expense(25,"food", 11), //Sinclair
-    add_expense(11,"food", 12), //Phoenix House
-    add_expense(6,"food", 15), //Hinds
-    add_expense(30,"fixed", 15), //Identity IQ
-    add_expense(32,"food", 15), //Chipotle
-    add_expense(5,"groceries", 18), //Ridleys
-    add_expense(27,"food", 18), //La Bonita
-    add_expense(13,"extra", 20), //Walgreens
-    add_expense(99,"fixed", 20), //Credit Glory
-    add_expense(13,"food", 21), //Phoenix House
-    add_expense(60,"gas", 20), //Credit Glory
+    add_expense(25,"gas", 8), //Gas Smiths
+    // add_expense(61,"fixed", 9), //Phone bill
+    // add_expense(25,"food", 11), //Starbucks
+    // add_expense(16,"extra", 11), //Honey
+    // add_expense(8,"food", 11), //Baskin
+    // add_expense(25,"food", 11), //Sinclair
+    // add_expense(11,"food", 12), //Phoenix House
+    // add_expense(6,"food", 15), //Hinds
+    // add_expense(30,"fixed", 15), //Identity IQ
+    // add_expense(32,"food", 15), //Chipotle
+    // add_expense(5,"groceries", 18), //Ridleys
+    // add_expense(27,"food", 18), //La Bonita
+    // add_expense(13,"extra", 20), //Walgreens
+    // add_expense(99,"fixed", 20), //Credit Glory
+    // add_expense(13,"food", 21), //Phoenix House
+    // add_expense(60,"gas", 20), //Credit Glory
 
 
 
