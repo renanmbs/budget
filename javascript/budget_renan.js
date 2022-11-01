@@ -46,16 +46,15 @@ let spending = [
     add_expense(100,"fixed", 25), //Rent
     add_expense(360,"fixed", 25), //CC
     add_expense(42,"groceries", 25), //Walmart
-    add_expense(15,"fixed", 6), //Routing
-    add_expense(25,"gas", 8), //Gas Smiths
-    // add_expense(61,"fixed", 9), //Phone bill
-    // add_expense(25,"food", 11), //Starbucks
-    // add_expense(16,"extra", 11), //Honey
-    // add_expense(8,"food", 11), //Baskin
-    // add_expense(25,"food", 11), //Sinclair
-    // add_expense(11,"food", 12), //Phoenix House
-    // add_expense(6,"food", 15), //Hinds
-    // add_expense(30,"fixed", 15), //Identity IQ
+    add_expense(15,"fixed", 25), //Routing
+    add_expense(25,"gas", 26), //Gas Smiths
+    add_expense(11,"fixed", 26), //Spotify
+    add_expense(8,"gas", 29), //Chevron Cedar City
+    add_expense(6,"extra", 29), //Cedar City food
+    add_expense(15,"food", 29), //Karim Bakery
+    add_expense(6,"food", 30), //Starbucks
+    add_expense(9,"groceries", 31), //Walmart
+    add_expense(24,"food", 1), //Chipotle
     // add_expense(32,"food", 15), //Chipotle
     // add_expense(5,"groceries", 18), //Ridleys
     // add_expense(27,"food", 18), //La Bonita
