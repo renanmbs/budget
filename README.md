@@ -1,3 +1,3 @@
 # Budget
 
-<p>This repository is to hold a expenses visualizer for personal usage</p>
+<p>This repository is to hold an expenses visualizer for personal usage</p>
